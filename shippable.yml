@@ -6,3 +6,5 @@ env:
 build:
  ci:
   - echo "Hello, World!"
+  - docker images
+  - docker ps
