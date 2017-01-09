@@ -8,3 +8,8 @@ build:
   - echo "Hello, World!"
   - docker images
   - docker ps
+  - echo -e "\033[31mred foreground\033[0m default foreground (full reset)"
+  - echo -e "\033[41mred background\033[0m default background (full reset)"
+  # Symfony
+  - echo -e "\033[31mred foreground\033[39m default foreground (foreground reset)"
+  - echo -e "\033[41mred background\033[49m default background (background reset)"
