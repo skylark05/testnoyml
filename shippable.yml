@@ -5,6 +5,7 @@ env:
  - secure: lKvoY73gWSAem/P7FNuBF4rkMtIgg8O1Mfb9EirZaBjsKGk7xxYS7uCO5p+oTDhGTkaZ1mERyx3j4R0BbvxGyURm+HyKGe/Jphnu/rowZXw9yF784OikO7QWHIZh092fOJjxDGr2nt8VSyZA1Ds/AjEVEFL0jpGAlhUzS5h41XbRzba1RgFyNc6dI5TMepH3hDXht88Jx7/D0cr25AOXgjlS4rWrZ5Rom/q3OPib1TBhP0iya8ch8xxwfOCHziBKGt/Z1VPTn3eddajryWqKn4MbwC0Zmodd4WyBfx664DNx4xF0Rc6/tv/T3MZ7veaew5NNZTby1gSJsI79QopR+w==
 build:
  ci:
+  - foo
   - echo "Hello, World!"
   - docker images
   - docker ps
